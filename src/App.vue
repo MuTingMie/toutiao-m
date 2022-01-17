@@ -6,6 +6,10 @@
     <div>
       <i class="husFont icon-shipin"></i>
     </div>
+
+    <div class="box">
+    </div>
+
   </div>
 </template>
 
@@ -16,5 +20,9 @@ export default {
 </script>
 
 <style lang="less">
-
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+}
 </style>
